@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="et">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kassid | Nuustik</title>
+<meta content="Nuustiku kassid – oma kodu ootavad kassid." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+<a class="skip-link" href="#main-content">Liigu põhisisu juurde</a>
+<header class="site-header" id="top">
+<div class="container header-inner">
+<a aria-label="Nuustik avaleht" class="logo" href="index.html">
+<img alt="Nuustik logo" src="images/Cat-logo-white.svg"/>
+</a>
+<nav aria-label="Peamenüü" class="main-nav">
+<ul>
+<li><a href="index.html">Avaleht</a></li>
+<li><a class="active" href="kassid.html">Kassid</a></li>
+<li><a href="detailileht.html">Detailileht</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+<li><a href="anneta.html">Anneta</a></li>
+</ul>
+</nav>
+<div aria-hidden="true" class="header-spacer"></div>
+</div>
+</header>
+<main id="main-content">
+<section aria-labelledby="cats-page-title" class="cats-page">
+<div class="container">
+<h1 class="cats-page-title" id="cats-page-title">OMA KODU OOTAVAD KASSID</h1>
+<div aria-label="Kasside filtrid" class="filter-bar">
+<span class="filter-label">Filter:</span>
+<button class="filter-btn active" data-filter="all" type="button">Kõik</button>
+<button class="filter-btn" data-filter="emane" type="button">Emane</button>
+<button class="filter-btn" data-filter="isane" type="button">Isane</button>
+<button class="filter-btn" data-filter="kassipojad" type="button">Kassipojad</button>
+</div>
+<div class="cats-page-grid" id="catsGrid">
+<article class="cat-detail-card" data-category="adult" data-gender="emane">
+<img alt="Kass Nurrik" src="images/cat1.jpg"/>
+<div class="cat-detail-body">
+<h3>Nurrik</h3>
+<p>emane</p>
+<p>sündinud 01.02.2025</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="adult" data-gender="isane">
+<img alt="Kass Triibu" src="images/cat2.jpg"/>
+<div class="cat-detail-body">
+<h3>Triibu</h3>
+<p>isane</p>
+<p>sündinud 06.05.2025</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="adult" data-gender="emane">
+<img alt="Kass Käppa" src="images/cat3.jpg"/>
+<div class="cat-detail-body">
+<h3>Käppa</h3>
+<p>emane</p>
+<p>sündinud 03.09.2024</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="adult" data-gender="emane">
+<img alt="Kass Murri" src="images/cat4.jpg"/>
+<div class="cat-detail-body">
+<h3>Murri</h3>
+<p>emane</p>
+<p>sündinud 09.09.2025</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="adult" data-gender="emane">
+<img alt="Kass Säde" src="images/cat5.jpg"/>
+<div class="cat-detail-body">
+<h3>Säde</h3>
+<p>emane</p>
+<p>sündinud 12.12.2024</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="adult" data-gender="isane">
+<img alt="Kass Vurru" src="images/cat6.jpg"/>
+<div class="cat-detail-body">
+<h3>Vurru</h3>
+<p>isane</p>
+<p>sündinud 04.11.2025</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="kassipojad" data-gender="isane">
+<img alt="Kass Täpi" src="images/cat7.jpg"/>
+<div class="cat-detail-body">
+<h3>Täpi</h3>
+<p>isane</p>
+<p>sündinud 02.12.2025</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="kassipojad" data-gender="mixed">
+<img alt="Kassid Miisu ja Mikki" src="images/cat8.jpg"/>
+<div class="cat-detail-body">
+<h3>Miisu, Mikki</h3>
+<p>emane, isane</p>
+<p>sündinud 02.03.2026</p>
+</div>
+</article>
+<article class="cat-detail-card" data-category="kassipojad" data-gender="isane">
+<img alt="Kass Päike" src="images/cat9.jpg"/>
+<div class="cat-detail-body">
+<h3>Päike</h3>
+<p>isane</p>
+<p>sündinud 30.01.2026</p>
+</div>
+</article>
+</div>
+<p class="empty-state" id="emptyState">Selle filtriga kasse ei leitud.</p>
+</div>
+</section>
+<div class="cats-footer-space"></div>
+<section aria-labelledby="cta-title" class="donate-banner" id="anneta">
+<div class="donate-banner-overlay"></div>
+<div class="container donate-banner-content">
+<div class="donate-banner-center">
+<h2 id="cta-title">Päästa elu. Leia sõber.</h2>
+<div class="bank-box">
+<p>Registrikood: 89356274</p>
+<p>Arveldusarved:</p>
+<p>SEB Pank EE123456789012345678</p>
+<p>Swedbank EE987654321098765432</p>
+</div>
+</div>
+<div class="donate-banner-right">
+<a class="btn btn-yellow" href="#anneta">ANNETA</a>
+</div>
+</div>
+<div class="banner-contact-row">
+<a href="tel:+37212345678">+372 1234 5678</a>
+<span>Tallinn</span>
+<a href="mailto:info@nuustik.ee">info@nuustik.ee</a>
+</div>
+</section>
+</main>
+<footer class="site-footer" id="kontakt">
+<div class="container footer-top">
+<a aria-label="Nuustik avaleht" class="footer-logo" href="index.html">
+<img alt="Nuustik logo" src="images/Cat-logo-white.svg"/>
+</a>
+<div aria-label="Sotsiaalmeedia" class="footer-socials">
+<a aria-label="Instagram" href="#">
+<img alt="" src="images/instagram.svg"/>
+</a>
+<a aria-label="Facebook" href="#">
+<img alt="" src="images/facebook.svg"/>
+</a>
+</div>
+</div>
+<div class="container footer-bottom">
+<p>Copyright 2026 Nuustik</p>
+</div>
+</footer>
+<script>
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const cards = document.querySelectorAll(".cat-detail-card");
+    const emptyState = document.getElementById("emptyState");
+
+    function applyFilter(filter) {
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const gender = card.dataset.gender;
+        const category = card.dataset.category;
+
+        let isVisible = false;
+
+        if (filter === "all") {
+          isVisible = true;
+        } else if (filter === "emane") {
+          isVisible = gender === "emane" || gender === "mixed";
+        } else if (filter === "isane") {
+          isVisible = gender === "isane" || gender === "mixed";
+        } else if (filter === "kassipojad") {
+          isVisible = category === "kassipojad";
+        }
+
+        card.classList.toggle("is-hidden", !isVisible);
+
+        if (isVisible) {
+          visibleCount += 1;
+        }
+      });
+
+      emptyState.classList.toggle("is-visible", visibleCount === 0);
+    }
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        filterButtons.forEach((btn) => btn.classList.remove("active"));
+        button.classList.add("active");
+        applyFilter(button.dataset.filter);
+      });
+    });
+  </script>
+</body>
+</html>
